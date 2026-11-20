@@ -1,0 +1,32 @@
+# AI Context & Configs
+endpoints.md
+
+# Local Environment & Database initialization
+docker-compose.yml
+.env
+.env.*
+!.env.example
+/front-end/.env
+
+# Secrets & Credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*service-account*.json
+*credentials*.json
+
+# Database dumps (may contain user data); schema-only file stays tracked
+
+
+# Python Cache
+__pycache__/
+back-end/app/__pycache__/
+back-end/app/api/responses
+*.pyc
+
+copilot-instructions.md
+.venv/
+HANDOFF.md
